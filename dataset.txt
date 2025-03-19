@@ -1,0 +1,18 @@
+*dataset from:
+https://www.kaggle.com/datasets/nadinpethiyagoda/vehicle-dataset-for-yolo
+
+Dataset size: 3000 images
+Each class: 500 images
+Format: YOLO (txt)
+Train/Valid split: 70%(2100 images) : 30 (900 images)
+
+Classes:
+
+Car
+Threewheel
+Bus
+Truck
+Motorbike
+Van
+
+Note:- only 500 images have been used to train the model due to GPU restrictions
