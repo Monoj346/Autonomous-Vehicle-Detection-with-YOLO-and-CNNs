@@ -1,0 +1,22 @@
+*dataset from:
+https://www.kaggle.com/datasets/nadinpethiyagoda/vehicle-dataset-for-yolo
+
+Dataset size: 3000 images
+Each class: 500 images
+Format: YOLO (txt)
+Train/Valid split: 70%(2100 images) : 30 (900 images)
+
+Classes:
+
+Car
+Threewheel
+Bus
+Truck
+Motorbike
+Van
+
+This project trains a YOLO-based object detection model on a vehicle dataset. It preprocesses images (416×416), normalizes them, and pads labels to a fixed shape (20,5). A CNN model with Conv2D, MaxPooling, and BatchNorm is trained using Adam optimizer & MSE loss. To prevent OOM errors, batch size is reduced, and dropout is added. The trained model is saved as "yolo_trained_model.h5" for inference. 🚀
+
+
+*due to GPU restrictions, only 500 images have been used in the training of the model which you can easily change.. 
+Wishing good luck! 😁
